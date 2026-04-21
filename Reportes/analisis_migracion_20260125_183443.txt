@@ -1,0 +1,74 @@
+════════════════════════════════════════════════════════════════════════════════
+       ANÁLISIS ESTADÍSTICO DE LA MIGRACIÓN LADM-COL
+════════════════════════════════════════════════════════════════════════════════
+Fecha y hora: 2026-01-25 18:34:43
+Base de datos: bd_ladm_24012026
+Script: ANALISIS_MIGRACION.py
+════════════════════════════════════════════════════════════════════════════════
+
+ TABLA 17 - DISTRIBUCIÓN DE REGISTROS MIGRADOS POR ENTIDAD 
+----------------------------------------------------------------------
+                             entidad  registros
+                           cr_predio      11589
+                       cr_interesado      16380
+                          cr_derecho      16380
+                          cr_terreno      11669
+               cr_unidadconstruccion       9757
+cr_caracteristicasunidadconstruccion       5991
+
+ TABLA 18 - DISTRIBUCIÓN POR DESTINACIÓN ECONÓMICA (TOP 10) 
+----------------------------------------------------------------------
+         Destinación Económica  cantidad  porcentaje
+                  Habitacional      5634       48.62
+ Lote_Urbanizado_No_Construido      2620       22.61
+                  Agropecuario      1544       13.32
+Lote_Urbanizable_No_Urbanizado       824        7.11
+                      Agricola       377        3.25
+                   Uso_Publico       245        2.11
+                 Institucional       125        1.08
+                     Comercial        78        0.67
+                    Industrial        35        0.30
+                  Recreacional        34        0.29
+
+ TABLA 19 - PREDIOS POR TIPO PREDIO 
+----------------------------------------------------------------------
+Tipo Predio  cantidad  porcentaje
+    Privado     11380        98.2
+    Publico       209         1.8
+
+ TABLA 110 - PREDIOS POR CONDICIÓN PREDIO 
+----------------------------------------------------------------------
+         Condición Predio  cantidad  porcentaje
+                      NPH     10426       89.96
+Condominio_Unidad_Predial       713        6.15
+        PH_Unidad_Predial       241        2.08
+                      Via       130        1.12
+         Bien_Uso_Publico        79        0.68
+
+ TABLA 11 - INTERESADOS POR TIPO INTERESADO 
+----------------------------------------------------------------------
+ Tipo Interesado  cantidad  porcentaje  Predios distintos
+Persona_Juridica      2860       17.46               2757
+ Persona_Natural     13520       82.54               8888
+
+ TABLA 12 - USOS DE CONSTRUCCIÓN (TOP 5) 
+----------------------------------------------------------------------
+                               uso  cantidad  porcentaje
+Residencial.Vivienda_Hasta_3_Pisos      6666       68.32
+  Anexo.Ramadas_Cobertizos_Caneyes      1551       15.90
+                    Anexo.Piscinas       419        4.29
+                     Anexo.Kioscos       207        2.12
+                Comercial.Comercio       129        1.32
+
+ TABLA 13 - ESTADO DE CONSERVACIÓN DE CONSTRUCCIONES 
+----------------------------------------------------------------------
+Estado Conservación  cantidad  porcentaje
+              Bueno      5991       100.0
+
+ TABLA 14 - ANÁLISIS DE DERECHOS (ÚNICO VS COPROPIEDAD) 
+----------------------------------------------------------------------
+(Error al ejecutar la consulta)
+
+════════════════════════════════════════════════════════════════════════════════
+Fin del reporte
+════════════════════════════════════════════════════════════════════════════════

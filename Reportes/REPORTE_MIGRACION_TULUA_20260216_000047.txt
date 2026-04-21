@@ -1,0 +1,28 @@
+2026-02-16 00:00:47,685 - INFO - Conexión exitosa.
+2026-02-16 00:00:47,687 - INFO - MIGRACIÓN COMPLETA CON REPORTE DETALLADO - INICIADA
+2026-02-16 00:00:58,826 - INFO - 11589 predios nuevos insertados correctamente.
+2026-02-16 00:01:07,353 - INFO - 16380 interesados insertados correctamente.
+2026-02-16 00:01:14,231 - INFO - 11669 terrenos migrados con relación directa al predio
+2026-02-16 00:01:18,996 - INFO - 5991 características únicas creadas (por identificador + uso del SHP)
+2026-02-16 00:01:22,147 - INFO - 9757 unidades de construcción migradas con uso homologado desde SHP
+2026-02-16 00:01:22,147 - INFO - Migración de unidades completada: uso desde SHP + característica única por grupo
+2026-02-16 00:01:22,166 - INFO - Derechos anteriores eliminados.
+2026-02-16 00:01:26,176 - INFO - INSERTADOS 16380 derechos → 1 por interesado → suma exacta 1.000000
+
+================================================================================
+RESUMEN FINAL DE MIGRACIÓN
+Total predios únicos procesados: 12268
+Fecha: 2026-02-16 00:01:26
+
+estado                                MIGRADO  NO_MIGRADO
+entidad                                                  
+cr_caracteristicasunidadconstruccion     5991           0
+cr_derecho                              11583           0
+cr_interesado                           16380          12
+cr_predio                               11589           0
+cr_unidadconstruccion                    9757         851
+
+Archivo detallado: C:\Users\dan05\Desktop\ENTREGA FINAL_TG\SCRIPTS\REPORTE_MIGRACION_TULUA_20260216_000047.csv
+================================================================================
+2026-02-16 00:01:26,486 - INFO - REPORTE FINAL GENERADO CORRECTAMENTE
+2026-02-16 00:01:26,493 - INFO - MIGRACIÓN COMPLETA Y EXITOSA - REPORTE GENERADO
